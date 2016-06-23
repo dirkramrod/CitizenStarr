@@ -1,0 +1,137 @@
+//	name	input	ActivationMode	multitap
+//spaceship_general	
+eject                             KEYS +RALT CHARDLY +1 -1 CHARDLY -RALT
+exit                              KEYS +LCTL CHARDLY +f -f CHARDLY -LCTL
+self_destruct                     KEYS +RALT CHARDLY +BKSPC -BKSPC CHARDLY -RALT
+toggle_cabin_lights	o	    	 //smart_toggle	1
+toggle_running_lights	o	     //smart_toggle	1
+skyLine_toggle	m
+
+//spaceship_view	
+view_cycle_fwd	insert		
+view_cycle_internal_fwd	home		
+view_mode	pgup		
+view_interact	f		
+view_cycle_headlook_mode	lalt	     //hold 	1
+view_toggle_headlook_mode	lalt		
+view_look_behind	lctl+lalt		
+view_screen_focus_left	a		
+view_screen_focus_right	d		
+view_screen_focus_up	w		
+view_screen_focus_down	s		
+
+//spaceship_movement	
+roll_left	a		
+roll_right	d		
+throttle_toggle_minmax	backspace		
+throttle_up	w		
+throttle_down	s		
+brake	space		
+target_match_vel	m		
+ifcs_toggle_vector_decoupling	caps	     //smart_toggle	1
+strafe_up	r		
+strafe_down	f		
+strafe_left	q		
+strafe_right	e		
+strafe_forward	lctl+w		
+strafe_back	lctl+s		
+ifcs_mode_shf	v		
+decoupled_strafe_up	r		
+decoupled_strafe_down	f		
+decoupled_strafe_left	q		
+decoupled_strafe_right	e		
+decoupled_strafe_forward	w		
+decoupled_strafe_back	s		
+decoupled_roll_left	a		
+decoupled_roll_right	d		
+decoupled_brake	space		
+boost	lshf		
+afterburner	lshf		
+toggle_landing_system	n	     //smart_toggle	1
+cycle_landing_mode	m	     //press 	1
+toggle_qdrive_system	b	     //press 	1
+toggle_qdrive_engagement	mouse3	     //press 	1
+
+
+//> TARGETING <
+couple_aim_to_move	KEYS +RALT CHARDLY +m -m CHARDLY -RALT	     //smart_toggle	1
+toggle_mouse_aim_only	rshf	     //smart_toggle	1
+toggle_weapon_gimbal_lock         KEYS +LCTL CHARDLY +g -g CHARDLY -LCTL	     //smart_toggle	1
+target_reticle_focus	g		
+target_cycle_all_fwd	y		
+target_cycle_all_back             KEYS +LCTL CHARDLY +y -y CHARDLY -LCTL
+target_cycle_friendly_fwd	h		
+target_cycle_friendly_back        KEYS +LCTL CHARDLY +h -h CHARDLY -LCTL		
+target_toggle_pinned_focused	j		
+target_cycle_pinned_fwd	u		
+target_cycle_hostile_fwd	t		
+target_cycle_hostile_back         KEYS +LCTL CHARDLY +t -t CHARDLY -LCTL
+target_nearest_hostile	c		
+target_cycle_subsystem_fwd	b		
+target_cycle_subsystem_back       KEYS +LCTL CHARDLY +b -b CHARDLY -LCTL
+target_head_tracking	l	     //smart_toggle	1
+target_trigger_scan               KEYS +LCTL CHARDLY +SPC -SPC CHARDLY -LCTL	
+target_cycle_component_fwd	]		
+target_cycle_component_back	[		
+target_cycle_component_group_fwd	KEYS ] ]	     //double_tap_nonblocking	2
+target_cycle_component_group_back	KEYS [ [	     //double_tap_nonblocking	2
+target_cycle_reticle_mode         KEYS +RCTL CHARDLY +r -r CHARDLY -RCTL
+
+//spaceship_defensive	
+weapon_launch_countermeasure	z		
+weapon_cycle_countermeasure_fwd	x		
+shield_raise_level_forward	kp8		
+shield_raise_level_back	kp2		
+shield_raise_level_left	kp4		
+shield_raise_level_right	kp6		
+shield_raise_level_up	kp9		
+shield_raise_level_down	kp7		
+shield_reset_level	kp5		
+spaceship_auto_weapons	
+weapon_toggle_ai	\
+spaceship_power		
+power_focus_group_1	1		
+power_focus_group_2	2		
+power_focus_group_3	3		
+power_reset_focus	0		
+power_throttle_up	kp+		
+power_throttle_down	kp-		
+power_throttle_max	kp+	//double_tap	2
+power_throttle_min	kp-	  //double_tap	2
+power_toggle_group_1	4 //smart_toggle	1
+power_toggle_group_2	5 //smart_toggle	1
+power_toggle_group_3	6 //smart_toggle	1
+
+//spaceship_radar	
+radar_toggle_active_or_passive	.		
+radar_cycle_zoom_fwd	comma		
+
+//spaceship_hud	
+hud_cycle_mode_fwd	'		
+hud_cycle_mode_back	;		
+hud_open_tab1	f1		
+hud_open_tab2	f2		
+hud_open_tab3	f3		
+hud_open_tab4	f4		
+hud_open_tab5	f5		
+hud_open_tab6	f6		
+hud_open_tab7	f7		
+mobiglass f9	//press 	1
+hud_open_scoreboard	tab	 //hold 	1
+hud_interact_toggle	KBHOME		
+hud_confirm	enter		
+hud_cancel	rctl		
+hud_left_panel_up	up		
+hud_left_panel_down	down		
+hud_left_panel_left	left		
+hud_left_panel_right	right		
+comm_open_chat	backslash		
+comm_show_chat	equals		
+comm_open_precanned	keys +lctl CHARDLY +\  -\ CHARDLY -lctl
+//IFCS_controls	IFCS_A	rctl+a		
+//IFCS_controls	IFCS_B	rctl+b		
+//IFCS_controls	IFCS_X	rctl+x		
+//FCS_controls	IFCS_Y	rctl+y		
+invite	menu_friends_accept_invite	j		
+invite	menu_friends_refuse_invite	k		
+
